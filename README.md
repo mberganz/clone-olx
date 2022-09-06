@@ -8,5 +8,5 @@
 ### - JS-Cookie;
 ### - Styled-Components;
 
-*Mikael Berganzini*
+*Mikael Berganzini* / 
 *Desenvolvimento WEB II*
