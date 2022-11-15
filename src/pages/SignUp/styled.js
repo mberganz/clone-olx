@@ -1,59 +1,59 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const PageArea = styled.div`
-    form {
-        background-color: #FFF;
-        border-radius: 5px;
-        padding: 10px;
-        box-shadow: 0px 0px 3px #999;
-        margin-bottom: 20px;
+  form {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px #999;
+    margin-bottom: 20px;
 
-        .area {
-            display: flex;
-            align-items: center;
-            padding: 10px;
-            max-width: 500px;
+    .area {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      max-width: 500px;
 
-            .area--title {
-                width: 200px;
-                text-align: right;
-                padding-right: 20px;
-                font-weight: bold;
-                font-size: 14px;
-            }
+      .area--title {
+        width: 200px;
+        text-align: right;
+        padding-right: 20px;
+        font-weight: bold;
+        font-size: 14px;
+      }
 
-            .area--input {
-                flex: 1;
+      .area--input {
+        flex: 1;
 
-                input {
-                    width: 100%;
-                    font-size: 14px;
-                    padding: 5px;
-                    border: 1px solid #DDD;
-                    border-radius: 3px;
-                    outline: none;
+        input {
+          width: 100%;
+          font-size: 14px;
+          padding: 5px;
+          border: 1px solid #ddd;
+          border-radius: 15px;
+          outline: none;
 
-                    &:focus {
-                        border: 1px solid #333;
-                        color: #333;
-                    }
-                }
-
-                button {
-                    background-color: #0089FF;
-                    border: 0;
-                    outline: 0;
-                    padding: 5px 10px;
-                    border-radius: 4px;
-                    color: #FFF;
-                    font-size: 15px;
-                    cursor: pointer;
-
-                    &:hover {
-                        background-color: #006FCE;
-                    }
-                }
-            }
+          &:focus {
+            border: 1px solid #333;
+            color: #333;
+          }
         }
+
+        button {
+          background-color: #3a00ff;
+          border: 0;
+          outline: 0;
+          padding: 5px 10px;
+          border-radius: 15px;
+          color: #fff;
+          font-size: 15px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #320cb0;
+          }
+        }
+      }
     }
-`  
+  }
+`;
